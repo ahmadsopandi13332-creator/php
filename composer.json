@@ -1,5 +1,11 @@
 {
+    "name": "railway/php-crud",
+    "description": "PHP CRUD App for Railway",
     "require": {
+        "php": ">=7.4",
         "ext-mysqli": "*"
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:${PORT:-8080} index.php"
     }
 }
