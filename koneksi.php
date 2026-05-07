@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 // kalau tidak ada baru pakai data di dalam kutip.
 $host = getenv('MYSQLHOST') ?: "mysql.railway.internal";
 $user = getenv('MYSQLUSER') ?: "root";
-$pass = getenv('MYSQLPASSWORD') ?: "LZstNChgUtUIzpLIpzjVtJVusCMZscPX";
+$pass = getenv('MYSQLPASSWORD') ?: "fwlGPXZDNfmqzGKEyVRVxEchqPJetVvi";
 $db   = getenv('MYSQLDATABASE') ?: "railway";
 $port = getenv('MYSQLPORT') ?: 3306;
 
