@@ -1,2 +1,5 @@
 [phases.setup]
-nixPkgs = ["...", "php82Packages.extensions.mysqli"]
+nixPkgs = ["...", "php", "php82Extensions.mysqli"]
+
+[start]
+cmd = "php -S 0.0.0.0:${PORT} index.php"
